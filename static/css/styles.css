@@ -1,0 +1,192 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+}
+h2 {
+    margin-top: 30px; /* Space above the heading */
+    margin-bottom: 20px; /* Space below the heading */
+    font-size: 2em; /* Size of the heading */
+    color: #17a2b8; /* Color matching your theme */
+    text-align: center; /* Center align the text */
+    border-bottom: 2px solid #17a2b8; /* Underline effect */
+    padding-bottom: 10px; /* Space below the text */
+    font-weight: bold; /* Make the heading bold */
+    text-transform: uppercase; /* Make the text uppercase for emphasis */
+    letter-spacing: 1px; /* Space between letters for better readability */
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+h2:hover {
+    color: #138496; /* Darker shade on hover */
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #17a2b8;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #138496;
+}
+.cake-item {
+    margin-bottom: 20px;
+}
+
+.cake-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light background */
+    color: #333; /* Dark text color */
+}
+
+.container {
+    margin-top: 30px; /* Space above the container */
+}
+
+/* Header Styles */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #17a2b8; /* Bootstrap primary color */
+}
+
+h2 {
+    margin-top: 30px;
+    color: #333;
+}
+
+/* Cake Gallery */
+.cake-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cake-item {
+    margin: 15px; /* Space between items */
+    text-align: center;
+}
+
+.cake-image {
+    width: 100%; /* Full width for responsive images */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners */
+    transition: transform 0.3s; /* Animation on hover */
+}
+
+.cake-image:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+/* Button Styles */
+.order-button {
+    display: inline-block;
+    margin-top: 10px; /* Space above button */
+    padding: 10px 15px;
+    background-color: #17a2b8; /* Bootstrap primary color */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s; /* Animation on hover */
+}
+
+.order-button:hover {
+    background-color: #138496; /* Darker shade on hover */
+}
+
+/* Quick Links */
+ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0; /* Space between list items */
+}
+
+ul li a {
+    color: #17a2b8; /* Link color */
+    text-decoration: none;
+    transition: color 0.3s; /* Animation on hover */
+}
+
+ul li a:hover {
+    color: #138496; /* Darker shade on hover */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .cake-item {
+        flex: 0 0 100%; /* Full width on small screens */
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 769px) {
+    .cake-item {
+        flex: 0 0 45%; /* Two items per row on medium screens */
+        max-width: 45%;
+    }
+}
+
+@media (min-width: 992px) {
+    .cake-item {
+        flex: 0 0 30%; /* Three items per row on larger screens */
+        max-width: 30%;
+    }
+}
+p {
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 1.1em; /* Slightly larger font size for better readability */
+    line-height: 1.6; /* Increased line height for comfortable reading */
+    color: #555; /* A softer color for text */
+    margin-bottom: 15px; /* Space below paragraphs */
+    text-align: center; /* Center align text for a more cohesive look */
+    padding: 0 15px; /* Padding for better spacing on sides */
+    max-width: 600px; /* Limit width for better readability */
+    margin-left: auto; /* Center the block */
+    margin-right: auto; /* Center the block */
+}
+
+/* Optional: Adding a hover effect for emphasis */
+p:hover {
+    color: #f19509; /* Change color on hover to match theme */
+    transition: color 0.3s; /* Smooth color transition */
+}
+

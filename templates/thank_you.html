@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <title>Thank You!</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Thank You for Your Order!</h1>
+        <h2>Your Order Details:</h2>
+        {% if cart_items %}
+            <ul>
+                {% for item in cart_items %}
+                    <li>{{ item.quantity }} x {{ item.cake_type }} (Ordered by: {{ item.name }})</li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p>No items in your order.</p>
+        {% endif %}
+        <a href="{{ url_for('home') }}">Order Another Cake</a>
+    </div>
+</body>
+</html>
+
